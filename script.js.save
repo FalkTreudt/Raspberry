@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Live-Bild von ESP32-CAM</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="video-container">
+        <h1>Live-Bild von ESP32-CAM</h1>
+        <video id="live-video" autoplay width="640" height="480">
+          <source src="http://192.168.178.61:81/stream" type="video/mp4">
+        </video>
+        <div class="controls">
+          <label for="duration">Aufnahmezeit (Sekunden):</label>
+          <input type="range" id="duration" name="duration" min="1" max="20" value="5">
+          <button type="button" id="record-button">Video aufnehmen</button>
+        </div>
+      </div>
+      <div class="video-container">
+        <h1>Aufgenommenes Video</h1>
+        <video id="captured-video" width="640" height="480"></video>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+

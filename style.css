@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-container {
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+#live-image {
+  display: block;
+  margin: 0 auto;
+}
+
+#capturedImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  margin: 10px;
+}
+

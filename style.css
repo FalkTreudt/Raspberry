@@ -1,5 +1,4 @@
 /* Allgemeine Formatierung */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,7 +10,6 @@ html, body {
 }
 
 /* Header */
-
 .header {
   width: 100%;
   overflow: hidden;
@@ -35,9 +33,7 @@ html, body {
   text-align: center;
 }
 
-
 /* Main */
-
 .main {
   height: calc(100% - 50px);
   display: flex;
@@ -92,7 +88,6 @@ html, body {
 }
 
 /* Footer */
-
 .footer {
   background-color: #333;
   color: #fff;
@@ -131,4 +126,35 @@ html, body {
 
 .footer-box ul li a:hover {
   text-decoration: underline;
+}
+
+/* zusätzliche CSS */
+.sidebar-right {
+  width: 200px;
+  background-color: #eee;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.sidebar-right h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sidebar-right ul {
+  list-style: none;
+}
+
+.sidebar-right ul li {
+  margin-bottom: 5px;
+}
+
+.sidebar-right ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebar-right ul li a:hover {
+  color: #666;
 }
